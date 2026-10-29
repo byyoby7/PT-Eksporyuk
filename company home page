@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PT Ekspor Yuk - Connecting Indonesian products with global markets.">
+  <title>PT Ekspor Yuk | Connecting Indonesia to the World</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #081426;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      padding: 22px 8%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #24344b;
+    }
+    .logo { font-size: 23px; font-weight: 800; color: #e5bc70; }
+    nav a {
+      color: #fff; text-decoration: none; margin-left: 24px;
+      font-size: 14px;
+    }
+    nav a:hover { color: #e5bc70; }
+    .hero {
+      min-height: 76vh;
+      display: flex; flex-direction: column;
+      justify-content: center;
+      padding: 90px 8%;
+      background: linear-gradient(110deg, #081426 55%, #142b43);
+    }
+    .tag {
+      color: #e5bc70; text-transform: uppercase;
+      letter-spacing: 3px; font-size: 12px; font-weight: bold;
+    }
+    h1 {
+      font-size: clamp(40px, 6vw, 76px);
+      line-height: 1.08; max-width: 850px;
+      margin: 24px 0;
+    }
+    h1 span { color: #e5bc70; }
+    .hero p { max-width: 600px; color: #c2ccda; font-size: 17px; }
+    .btn {
+      display: inline-block; margin-top: 30px; padding: 14px 24px;
+      background: #e5bc70; color: #081426;
+      text-decoration: none; font-weight: bold; border-radius: 4px;
+      width: fit-content;
+    }
+    section { padding: 75px 8%; }
+    section h2 { font-size: 32px; margin-bottom: 18px; }
+    section p { color: #c2ccda; max-width: 750px; }
+    .cards {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 20px; margin-top: 30px;
+    }
+    .card {
+      border: 1px solid #2b3c53; padding: 25px;
+      border-radius: 8px; background: #101f33;
+    }
+    .card h3 { color: #e5bc70; margin-bottom: 12px; }
+    .contact { background: #101f33; }
+    footer {
+      padding: 25px 8%; border-top: 1px solid #24344b;
+      color: #aab6c6; font-size: 13px;
+    }
+    @media (max-width: 700px) {
+      header { flex-direction: column; gap: 15px; }
+      nav a { margin: 0 7px; font-size: 12px; }
+      .cards { grid-template-columns: 1fr; }
+      .hero { min-height: 65vh; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">EKSPOR YUK.</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">Indonesian Export Partner</div>
+      <h1>Connecting Indonesia<br>to the <span>World.</span></h1>
+      <p>
+        Discover Indonesian products and explore global trade opportunities
+        with PT Ekspor Yuk. Building connections between local potential
+        and international markets.
+      </p>
+      <a class="btn" href="#services">Explore Our Services →</a>
+    </section>
+
+    <section id="about">
+      <div class="tag">Who We Are</div>
+      <h2>Your Gateway to Indonesian Products</h2>
+      <p>
+        PT Ekspor Yuk aims to connect Indonesian products with international
+        market opportunities. We believe that local products can reach a
+        wider audience through strong partnerships and professional service.
+      </p>
+    </section>
+
+    <section id="services">
+      <div class="tag">What We Do</div>
+      <h2>Our Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Product Sourcing</h3>
+          <p>Explore potential Indonesian products and supplier partnerships.</p>
+        </article>
+        <article class="card">
+          <h3>Export Solutions</h3>
+          <p>Discuss export requirements and potential international trade arrangements.</p>
+        </article>
+        <article class="card">
+          <h3>Global Partnerships</h3>
+          <p>Build connections between Indonesian suppliers and international buyers.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="tag">Let's Connect</div>
+      <h2>Start a Conversation</h2>
+      <p>
+        Interested in Indonesian products or potential business partnerships?
+        Contact our team to discuss your requirements.
+      </p>
+      <a class="btn" href="mailto:YOUR_EMAIL@example.com">Email Our Team →</a>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> PT Ekspor Yuk. All rights reserved.
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
+
+Ini masih versi awal atau protot
